@@ -79,4 +79,4 @@ if __name__ == "__main__":
 
     print(df_compare)
 
-    sns.countplot(data = df_compare, x = df_compare["value"], hue=df_compare["variable"]).set(title="Actual v. Predicted Qualities")
+    sns.countplot(data = df_compare, x = df_compare["value"], hue=df_compare["variable"], palette=['#C70039',"#0988B0"]).set(title="Actual v. Predicted Qualities")
